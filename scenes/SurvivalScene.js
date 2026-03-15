@@ -265,7 +265,7 @@ export class SurvivalScene extends Phaser.Scene {
   getEnemyProfile(type) {
     const profiles = {
       normal: { radius: 12, color: 0xef4444, hp: 2, speedMultiplier: 1, damage: 10, isRanged: false },
-      fast: { radius: 9, color: 0xf97316, hp: 1, speedMultiplier: 1.05, damage: 5, isRanged: false },
+      fast: { radius: 9, color: 0xf97316, hp: 1, speedMultiplier: 1.33, damage: 5, isRanged: false },
       shooter: {
         radius: 11,
         color: 0x38bdf8,
